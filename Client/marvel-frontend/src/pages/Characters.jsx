@@ -22,7 +22,9 @@ const Characters = () => {
         <Loader />
       ) : (
         <>
-          <h1 className="characters-title">Marvel Characters</h1>
+        <div className="sajs">
+        <img src="/images/MarvelB.png" alt="Top Image" className="top-image" />
+        </div>
           <div className="characters-grid">
             {characters.map((char) => (
               <div key={char.id} className="card">
