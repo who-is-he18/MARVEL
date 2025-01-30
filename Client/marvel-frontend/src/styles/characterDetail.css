@@ -1,0 +1,31 @@
+.character-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #151515fc;
+    color: #ffffff;
+  }
+  
+  .character-detail-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .character-detail-name {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .character-detail-description {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .character-detail-info {
+    font-size: 1em;
+    text-align: center;
+  }
